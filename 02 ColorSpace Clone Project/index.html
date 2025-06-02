@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorSpace Clone Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <div class="heading-content">
+            <article>
+                <h1 class="main-heading">Generate a CSS Color Gradient</h1>
+            </article>
+        </div>
+        <div class="choose-orientation">
+            <article>
+                <p class="para">Choose orientation</p>
+            </article>
+            <div class="direction-content">
+                <i class="fa-solid fa-arrow-right neg-deg-45"></i>
+                <i class="fa-solid fa-arrow-right"></i>
+                <i class="fa-solid fa-arrow-right deg-45"></i>
+                <i class="fa-solid fa-arrow-down "></i>
+                <i class="fa-solid fa-arrow-down deg-45"></i>
+                <i class="fa-solid fa-arrow-left"></i>
+                <i class="fa-solid fa-arrow-left deg-45"></i>
+                <i class="fa-solid fa-arrow-up"></i>
+                <i class="fa-solid fa-rotate-right"></i>
+            </div>  
+        </div>
+        <div class="button-box">
+            <article>
+                <p class="color-para">Enter colors</p>
+            </article>
+            <div class="button-content">
+                <button class="btn btn-1">#051937</button>
+                <button class="btn btn-2">#A8B12B</button>
+            </div>
+            <button class="btn btn-3">generate</button>
+        </div>
+        <div class="code-generator">
+            <article>
+                <p class="css-para">CSS Code:</p>
+            </article>
+            <div class="copied-code">
+                background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
