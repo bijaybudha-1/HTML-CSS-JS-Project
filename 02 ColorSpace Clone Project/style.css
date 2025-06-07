@@ -36,6 +36,7 @@
     height: auto;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     gap: 20px;
     padding: 0 30px;
@@ -131,7 +132,7 @@
     line-height: 1.4;
     letter-spacing: 0.2px;
     border-left: 3px solid #fff;
-    background-color: rgba(189, 189, 189, 0.1);
+    background-color: rgba(211, 210, 210, 0.1);
     padding: 15px 8px 15px 17px;
     border-radius: 5px;
 }
