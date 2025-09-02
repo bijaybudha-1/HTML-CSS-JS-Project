@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wifi-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.main-content {
+    width: fit-content;
+    min-width: 360px;
+    height: fit-content;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 20px;
+}
+
+.main-content h1 {
+    margin: 20px 0;
+    color: maroon;
+    text-align: center
+}
+
+.generate-code input, .generate-code button, .generate-code #encryption {
+    display: block;
+    width: 100%;
+    margin: 15px auto;
+    padding: 10px;
+    font-size: 18px;
+    color: maroon;
+    outline: 2px solid maroon;
+    border: none;
+    border-radius: 8px;
+}
+
+.generate-code input:focus {
+    border: none;
+    outline: 2px solid maroon;
+}
+
+.last-content {
+    display: flex;
+    gap: 20px;
+}
+
+.generate-code #generate-btn, .last-content .btn {
+    width: 100%;
+    background-color: maroon;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all ease-in-out 0.5s;
+    padding: 15px 0;
+    margin-top: 25px;
+    outline: none;
+}
+
+.generate-code #generate-btn:hover, .last-content .btn:hover {
+    background-color: white;
+    color: maroon;
+    border: 2px solid maroon;
+}
+
+#qr-code img{
+    margin: 40px auto;
+}
