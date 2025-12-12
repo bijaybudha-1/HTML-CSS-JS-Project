@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>News360</title>
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Link for the Account icon -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+  </head>
+  <body>
     <h1>News 360</h1>
-</body>
+
+    <header class="section_specifier">
+      <div class="container header-container">
+        <nav class="d-flex content-around item-center">
+          <div class="navLinks">
+            <ul class="d-flex content-around">
+              <li>
+                <span class="material-symbols-outlined " id="mobile_only">
+                  menu
+                </span>
+              </li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Categories</a></li>
+              <li><a href="#">World</a></li>
+              <li><a href="#">Politics</a></li>
+              <li><a href="">Tech</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">More</a></li>
+            </ul>
+          </div>
+          <div id="search_menu" class="d-flex">
+            <div id="search_box" class="p-relative">
+              <input type="text" placeholder="Search News" />
+              <span class="material-symbols-outlined p-absolute search_news">
+                search
+              </span>
+            </div>
+
+            <div id="account_view ">
+              <span class="material-symbols-outlined acc_icon">
+                account_circle
+              </span>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+  </body>
 </html>
