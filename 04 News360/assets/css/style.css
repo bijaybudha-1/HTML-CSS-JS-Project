@@ -9,6 +9,27 @@
   font-style: normal;
 }
 
+:root {
+    --bg-white: #ffffff;
+    --primary-bg-color: #f7f7f7;
+    --secondary-bg-color: #ececec;
+    --card-bg-color: #fafafa;
+
+    --primary-color: #333333;
+    --secondary-color: #8b0000;
+    --accent-color: #c9a96e;
+
+    --text-color: #1a1a1a;
+    --text-light: #4d4d4d;
+    --text-muted: #7a7a7a;
+
+    --border-color: #d6d6d6;
+    --divider-color: #cccccc;
+
+    --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -70,15 +91,134 @@ html {
     display: flex;
 }
 
+.flex-cols {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+
 .item-center {
     align-items: center;
 }
-/* Display Flex Styling End */
 
-/* Category Section Styling Start */
-.category-container .category-content {
-    background-color: teal;
-    color: white;
+.gap-xy-1 {
+    gap: 1rem;
+} 
+
+.gap-xy-2 {
+    gap: 2rem;
 }
 
-/* Category Section Styling End */
+.gap-xy-4 {
+    gap: 4rem;
+}
+/* Display Flex Styling End */
+
+
+/* Border, border-radius Styling Start */ 
+.radius-xy-1 {
+    border-radius: 1rem;
+}
+
+/* Border, border-radius Styling End */ 
+
+/* Marin and Padding Section Start */
+.mt-half {
+    margin-top: .5rem;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-1-half {
+    margin-top: 1.5rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+/* Marin and Padding Section End */
+
+
+/* Home Section Styling Start */
+.home-container .home-content {
+    width: 100%;
+}
+
+.home-content .home-left-content {
+    width: 100%;
+    background-color: var(--border-color);
+    padding: 2rem;
+}
+
+.home-left-content img {
+    width: 100%;
+    height: 40rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Home right side content start */
+.home-right-content {
+    width: 70rem;
+    background-color: var(--border-color);
+    padding: 2rem;
+}
+
+.home-right-content .popular-today-content {
+    height: auto;
+    background-color: var(--card-bg-color);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.today-image-content img {
+    width: 20rem;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 1rem;
+}
+
+.today-description-content {
+    width: 100%;
+}
+
+.today-description-content .today-title:hover {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+/* Home right side content End */
+
+
+/* Home Section Styling End */
+
+
+
+/* Responsive Layout for All Devices */
+    
