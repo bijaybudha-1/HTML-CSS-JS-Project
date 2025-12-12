@@ -1,5 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 144rem;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+}
+
+/* Heading, title, para Styling Start */
+
+.main-heading {
+    font-size: 2.3rem;
+    font-weight: bolder;
+}
+
+.sub-heading {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.heading {
+    font-size: 2.4;
+    font-weight: 600;
+}
+
+.main-title {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.sub-title {
+    font-weight: 1.8rem;
+    font-weight: 500;
+}
+
+.title {
+    font-size: 1.6rem;
+    font-weight: 500
+}
+
+.main-para {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.sub-para {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/* Heading, title, para Styling End */
+
+
+/* Display Flex Styling Start */
+.d-flex {
+    display: flex;
+}
+
+.item-center {
+    align-items: center;
+}
+/* Display Flex Styling End */
+
+/* Category Section Styling Start */
+.category-container .category-content {
+    background-color: teal;
+    color: white;
+}
+
+/* Category Section Styling End */
