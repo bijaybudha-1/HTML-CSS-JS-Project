@@ -39,12 +39,24 @@ html {
     max-width: 144rem;
     margin: 0 auto;
     padding: 1.5rem 2rem;
+
 }
+
+
+/* Account Icon styling */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 20
+}
+
 
 /* Heading, title, para Styling Start */
 
 .main-heading {
-    font-size: 2.3rem;
+    font-size: 3.2rem;
     font-weight: bolder;
 }
 
@@ -54,7 +66,7 @@ html {
 }
 
 .heading {
-    font-size: 2.4;
+    font-size: 2.4rem;
     font-weight: 600;
 }
 
@@ -134,6 +146,14 @@ html {
 
 .gap-xy-4 {
     gap: 4rem;
+.item-center {
+    align-items: center;
+}
+.content-center{
+    justify-content: center;
+}
+.content-around{
+    justify-content: space-around;
 }
 /* Display Flex Styling End */
 
@@ -222,3 +242,115 @@ html {
 
 /* Responsive Layout for All Devices */
     
+/* Position styling  */
+.p-relative{
+position: relative;
+}
+.p-absolute{ 
+position: absolute;
+}
+/* Navbar Starts */
+
+.section_specifier{
+  width:100%;
+    border-top:0.4rem solid black;
+    border-bottom:0.4rem solid black;
+}
+nav{
+    width: 100%;
+    padding:1.2rem;
+}
+.navLinks{
+    width: 60%;
+}
+.navLinks ul {
+   list-style: none;
+  
+}
+.navLinks ul li> a{
+     padding-left:2rem;
+   text-decoration: none;
+   color:black;
+   font-size: 2rem;
+}
+
+#search_menu{
+    gap:1.5rem;
+    width:30%;
+}
+.search_news{
+   right:5%;
+   top:18%;
+   font-size:1.3rem;
+
+}
+#search_box> input{
+    border-radius: 0.9rem;
+    width:60%;
+    padding:0.5rem;
+}
+#mobile_only{
+    display: none ;
+}
+#search_box{
+    width:60%;
+}
+ #search_box >input{
+    width: 100%;
+    padding:0.7rem 1.2rem;
+    font-weight: bolder;
+}
+#search_menu #search_box > input::placeholder{
+  
+    font-weight: bold;
+    color:black;
+}
+
+/* size of icons */
+.acc_icon{
+    font-size: 3.4rem  !important;
+}
+/* Category Section Styling Start */
+.category-container .category-content {
+    background-color: teal;
+    color: white;
+}
+
+
+/* Category Section Styling End */
+
+
+
+
+
+
+
+
+/* Responsive Layout */
+
+@media only screen and (max-width:992px) {
+
+    .container{
+           
+           padding:0;
+    }
+    nav{
+        flex-direction: row-reverse;
+        justify-content: space-between !important;
+        position: relative;
+        padding:0rem !important;
+        align-items: start  !important;
+    }
+    .navLinks{ 
+        height: 100vh;
+        width:40%;
+        background-color: whitesmoke;
+    }
+    .navLinks ul {
+        flex-direction: column;
+    }
+    #mobile_only{
+        display: block;
+    }      
+
+}
