@@ -1,11 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>News360</title>
-</head>
-<body>
-    <h1>News360</h1>
-</body>
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header class="header-section">
+      <div class="nav-section">
+        <nav class="nav-container container">
+          <div class="nav-content d-flex item-center justify-between">
+            <div class="nav-logo-content">
+              <img src="./assets/images/Logo_Image.png" alt="" />
+            </div>
+
+            <ul class="nav-navbar-content d-flex gap-xy-2">
+              <li><a href="#" class="nav-links main-title">Home</a></li>
+              <li><a href="#" class="nav-links main-title">World</a></li>
+              <li><a href="#" class="nav-links main-title">Politics</a></li>
+              <li><a href="#" class="nav-links main-title">Tech</a></li>
+              <li><a href="#" class="nav-links main-title">About</a></li>
+              <li><a href="#" class="nav-links main-title">More</a></li>
+            </ul>
+
+            <div class="nav-search-profile-content d-flex item-center">
+              <div class="nav-search-content">
+                <input type="text" placeholder="Search News" />
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+
+              <div id="themeToggle" class="nav-profile-content">
+                <i class="fa-solid fa-moon"></i>
+              </div>
+
+              <div id="menuToggle" class="menu-icon-content">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="mobile-nav-section">
+        <ul class="mobile-nav-content">
+          <li><a href="#" class="nav-links">Home</a></li>
+          <li><a href="#" class="nav-links">World</a></li>
+          <li><a href="#" class="nav-links">Politics</a></li>
+          <li><a href="#" class="nav-links">Tech</a></li>
+          <li><a href="#" class="nav-links">About</a></li>
+          <li><a href="#" class="nav-links">More</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="home-section">
+      <div class="container home-container">
+        <div class="home-content d-flex justify-between gap-xy-4">
+          <div class="home-left-content radius-xy-1 reveal">
+            <img
+              class="radius-xy-1"
+              src="./assets/images/Home-page20251210-jane-austen-mystery-death.jpg"
+            />
+            <p class="title mt-1-half">Category</p>
+            <h4 class="main-title mt-half">Feature Article Heading</h4>
+            <p class="sub-para mt-1">A brief description of the story...</p>
+            <h6 class="author-name mt-half">Nick Belly</h6>
+          </div>
+
+          <div
+            class="home-right-content d-flex flex-cols gap-xy-2 radius-xy-1 reveal"
+          >
+          <h2 class="heading">Today Popular</h2>
+            <div class="popular-today-content d-flex gap-xy-2 reveal">
+              <img
+                src="./assets/images/Home-page20251210-jane-austen-mystery-death.jpg"
+              />
+              <div>
+                <h3 class="main-para today-title">
+                  FDA May Allow New Sunscreen Ingredient Popular Abroad
+                </h3>
+                <p class="para mt-half">Source: Yahoo News</p>
+              </div>
+            </div>
+
+            <div class="popular-today-content d-flex gap-xy-2 reveal">
+              <img
+                src="./assets/images/Home-page20251210-jane-austen-mystery-death.jpg"
+              />
+              <div>
+                <h3 class="main-para today-title">
+                  FDA May Allow New Sunscreen Ingredient Popular Abroad
+                </h3>
+                <p class="para mt-half">Source: Yahoo News</p>
+              </div>
+            </div>
+
+            <div class="popular-today-content d-flex gap-xy-2 reveal">
+              <img
+                src="./assets/images/Home-page20251210-jane-austen-mystery-death.jpg"
+              />
+              <div>
+                <h3 class="main-para today-title">
+                  FDA May Allow New Sunscreen Ingredient Popular Abroad
+                </h3>
+                <p class="para mt-half">Source: Yahoo News</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
 </html>
